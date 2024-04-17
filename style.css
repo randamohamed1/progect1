@@ -1,0 +1,388 @@
+
+body{
+   
+    font-family:  "Alegreya Sans", sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+   
+}
+.nav{
+    width: 90%;
+    margin: auto;
+   padding: 10px 0;
+  
+}
+
+
+.nav .a {
+    width: 6%;
+    float: right;
+    font-size: 18px;
+    font-family:  "Alegreya Sans", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+     
+
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+.nav  a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav img {
+    height: 48px;
+   
+}
+
+
+.nav .b {
+    width: 20%;
+
+    
+   
+}
+.header{
+   
+    background-image: url(img/p2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+   
+}
+
+
+.home {
+  
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    margin-top: 100px;
+    padding-top: 80px;
+  
+} 
+
+
+
+.home h1{
+    font-family: "Alegreya", serif;
+    font-size: 50px ;
+} 
+
+.home p{
+    font-size: 25px;
+}
+
+.home button{
+    padding: 15px 30px;
+    border-color: aliceblue;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 3px;
+   background-color: transparent;
+   color: aliceblue;
+   font-weight: bold;
+   margin-left: 10px;
+   transition-duration: 0.4s;
+   
+  
+
+}
+
+.home button:hover {
+    background-color: aliceblue;
+    color: black;
+    
+  }
+.home .btn1{
+    background-color: #8e7754;
+}
+
+
+.about{
+    height: 100vh;
+   
+}
+
+
+.about  .new{
+    float: left;
+   
+  
+}
+
+
+
+.about-img{
+    width: 50%;
+    margin-top: 100px;   
+  
+}
+
+.about-img img{
+    width: 75%;
+    margin-left: 150px;
+    display: block;
+   
+    
+}
+
+.about-content {
+    width: 40%;
+    color: black;
+    padding-top: 50px;
+    padding-left: 20px;
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+
+
+
+.about .about-content .context-list .list-row {
+    width: 80%;
+    
+}
+.about .about-content p{
+    font-family:  "Alegreya Sans", sans-serif;
+    color: #686868;
+    font-size: 18px;
+   
+    
+}
+
+.about .about-content .context-list .list-row .context-row {
+    width: 60%;
+    display: inline-block;
+   
+}
+.about .about-content .context-list .list-row .context-row p {
+   font-family:  "Alegreya Sans", sans-serif;
+   color: #686868;
+   font-size: 18px;
+   
+}
+
+
+.about .about-content .context-list .list-row .icons {
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.about .about-content .context-list .list-row .icons img{
+    height: 50px;
+    width: 50px;
+    display: block;
+
+}
+
+.element2{
+
+    background-color: #f8f8f8;
+    height: 90vh;
+}
+
+
+.element2 .new{
+    float: left;
+
+}
+
+.element2 .right {
+  
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 100px;  
+    padding-top: 20px; 
+  
+  
+}
+
+.right img{
+    width: 75%;
+
+}
+
+.element2 .left{
+
+    width: 33%;
+    color: #303030;
+    margin-top: 140px;
+    margin-left: 100px;
+    padding-top: 50px;
+
+  
+    
+}
+
+.element2 .left p{
+    color: #686868 ;
+    font-family:  "Alegreya Sans", sans-serif;
+    font-size: 18px;
+}
+
+
+.section3 {
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.section3 .titel{
+    text-align: center;
+}
+.section3 .titel h1 {
+        font-family:  "Alegreya Sans", sans-serif;
+        color: #303030;
+        
+    }
+.section3 .titel p{
+        font-family:  "Alegreya Sans", sans-serif;
+        color: #686868 ;
+        font-size: 18px;
+       
+        
+    }
+.section3  .block{
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 20px;
+       
+        
+    }
+
+.section3 .items{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.section3 .items img{
+    width: 100%;
+    
+}
+
+.section3 .items  h2{
+    text-align: center;
+    color: black ;
+    font-family:  "Alegreya Sans", sans-serif;
+   
+    
+
+}
+.section3 .items p{
+    text-align: center;
+    color: #686868 ;
+    font-family:  "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    
+
+}
+
+.contact{
+    background-color: #f8f8f8;
+    height: 90vh;
+}
+
+.contact .float{
+    float: left;
+}
+.contact .contact-text{
+    width: 33%;
+    color: #303030;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.contact .contact-information{
+    color: #303030;
+    font-family:  "Alegreya Sans", sans-serif;
+   
+}
+
+.contact .contact-text .contact-info {
+    color: #686868 ;
+    font-family:  "Alegreya Sans", sans-serif;
+    font-size: 18px;
+   
+}
+.contact .contact-text .contact-details {
+
+    color: #686868 ;
+    font-family:  "Alegreya Sans", sans-serif;
+    font-size: 18px;
+   
+}
+
+.contact .contact-text .contact-list .list-row-contact .icons-contact img{
+    height: 40px;
+    width: 40px;
+    display: block;
+    background-color: #8e7754;
+    border-radius: 50%;
+
+
+}
+
+.contact .contact-text .contact-list .list-row-contact .icons-contact{
+   width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.contact .contact-text .contact-list .list-row-contact .context-row-contact{
+   width: 60%;
+   display: inline-block;
+
+}
+.contact .contact-text .contact-list .list-row-contact .context-row-contact p{
+    color: #686868 ;
+    font-family:  "Alegreya Sans", sans-serif;
+    font-size: 18px;
+   
+
+}
+.contact .contact-img {
+  width: 40%;
+  height: 70vh;
+    margin-left: 150px;
+    margin-top: 90px;  
+    padding-top: 20px; 
+   
+
+}
+.contact .contact-img img {
+    width: 100%;
+    height: 60vh;
+    display: block;
+  
+   
+
+}
+
+
+
+
+
+
+
+
+
+/*
+
+.element1{
+
+     background-color: #f8f8f8;
+      
+
+     #686868
+
+     "Alegreya Sans";
+   
